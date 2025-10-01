@@ -1,0 +1,24 @@
+ALL LINUX COMMANDS.
+
+ls :- List all Directorys.
+mkdir :- Create a directory.
+ls -l :- Give all the details about Directorys which are avaliable.
+pwd :- shows your current location.
+touch :- to create a new file.
+cd :- change directory (cd DevOps/).
+cd .. :- one step back / exit current directory.
+rm :- remove / delete the file.
+rm -r :- remove / delete the directory.
+rmdir :- remove / delete the folder.
+cat :- too see the details inside the file.
+zcat :- to se inside the zip file.
+echo "write your message" > enter file name :- to store the message into selected fiel.
+head :- to see the top 5 lines inside the file.
+tail :- to see the last 5 lines inside the file.
+tail -f :- to see the new updated lines.
+less :-  lets you view a file page by page with navigation
+more :-  shows a file page by page but with limited navigation.
+cp <filename> <foldername>/ :- copy that file and pest in to selected folder.
+cp -r :- copy the folder ans pest  in to selected folder.
+mv :- move youre file one folder to another folder.
+wc :- count the all words.
