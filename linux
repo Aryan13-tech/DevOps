@@ -1,30 +1,44 @@
-ALL LINUX COMMANDS.
+Basic Linux Commands Cheat Sheet
 
-ls :- List all Directorys.
-mkdir :- Create a directory.
-ls -l :- Give all the details about Directorys which are avaliable.
-pwd :- shows your current location.
-touch :- to create a new file.
-cd :- change directory (cd DevOps/).
-cd .. :- one step back / exit current directory.
-rm :- remove / delete the file.
-rm -r :- remove / delete the directory.
-rmdir :- remove / delete the folder.
-cat :- too see the details inside the file.
-zcat :- to se inside the zip file.
-echo "write your message" > enter file name :- to store the message into selected fiel.
-head :- to see the top 5 lines inside the file.
-tail :- to see the last 5 lines inside the file.
-tail -f :- to see the new updated lines.
-less :-  lets you view a file page by page with navigation
-more :-  shows a file page by page but with limited navigation.
-cp <filename> <foldername>/ :- copy that file and pest in to selected folder.
-cp -r :- copy the folder ans pest  in to selected folder.
-mv :- move youre file one folder to another folder.
-wc :- count the all words.
-ln -s <enter path> :- create a direct access soft link 
-cut -b <bit num.> <filename>:- show you select bit. 
-tee :- it will print and save the message.
-sort :- it show the all alfabet in sequence.
-clear :- clear the screen.
-diff :- show the differance bitetwen selected two files.
+: File & Directory Management
+ls : List files and directories in the current location.
+ls -l : List files/directories with detailed information (permissions, size, owner, etc.).
+pwd : Show the current working directory (your location).
+mkdir <directory_name> : Create a new directory.
+rmdir <directory_name> : Remove an empty directory.
+rm -r <directory_name> : Remove a directory and its contents recursively.
+cd <directory_name> : Change to the specified directory.
+cd .. : Move one level up (exit current directory).
+
+: File Operations
+touch <file_name> : Create a new empty file.
+cat <file_name> : Display the content of a file.
+zcat <file_name> : View the content of a compressed .gz file.
+head <file_name> : Display the first 10 lines of a file (use -n to specify lines).
+tail <file_name> : Display the last 10 lines of a file (use -n to specify lines).
+tail -f <file_name> : Continuously monitor a file for new updates.
+less <file_name> : View a file page by page with navigation.
+more <file_name> : View a file page by page (limited navigation).
+
+: File Editing & Writing
+echo "message" > <file_name> : Write message to a file (overwrites if file exists).
+echo "message" >> <file_name> : Append message to a file.
+vi <file_name> : Open the file in the vi editor to edit or insert text.
+tee <file_name> : Write input to a file and display it on the screen.
+
+: File & Directory Copy/Move
+cp <file_name> <destination_folder>/ : Copy a file to a specified folder.
+cp -r <directory_name> <destination_folder>/ : Copy a directory and its contents to a destination.
+mv <file_name> <destination_folder>/ : Move a file to another folder (can also rename).
+
+: File & Text Processing
+wc <file_name> : Count lines, words, and characters in a file.
+diff <file1> <file2> : Show differences between two files.
+sort <file_name> : Sort the contents of a file alphabetically.
+cut -b <range> <file_name> : Extract specific byte(s) from each line of a file.
+
+: Links
+ln -s <target_path> <link_name> : Create a symbolic (soft) link to a file or directory.
+
+: Miscellaneous
+clear : Clear the terminal screen.
