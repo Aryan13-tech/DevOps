@@ -22,3 +22,9 @@ cp <filename> <foldername>/ :- copy that file and pest in to selected folder.
 cp -r :- copy the folder ans pest  in to selected folder.
 mv :- move youre file one folder to another folder.
 wc :- count the all words.
+ln -s <enter path> :- create a direct access soft link 
+cut -b <bit num.> <filename>:- show you select bit. 
+tee :- it will print and save the message.
+sort :- it show the all alfabet in sequence.
+clear :- clear the screen.
+diff :- show the differance bitetwen selected two files.
