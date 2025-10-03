@@ -42,3 +42,12 @@ ln -s <target_path> <link_name> : Create a symbolic (soft) link to a file or dir
 
 : Miscellaneous
 clear : Clear the terminal screen.
+
+
+::: SYSTEM LEVEL COMMANDS :::
+uname :- to know which platform you are using now.
+uptime :;- show the time of suing the system.
+who :- it show the howmany users have logined and show current avaliable users.
+whoami :- show the current logedin user name.
+which :- it is used to get the location.
+id :- show the user id.
