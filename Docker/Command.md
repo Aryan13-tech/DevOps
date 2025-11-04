@@ -40,6 +40,7 @@ docker tag myimage:latest myrepo/myimage:v1
 docker login
 docker push myrepo/myimage:v1
 
+
 # Clean up unused data
 docker system prune -a
 
